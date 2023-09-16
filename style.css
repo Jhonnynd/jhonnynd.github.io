@@ -1,6 +1,13 @@
+body {
+  background-color: #f9f9f9;
+  font-family: Poppins, sans-serif;
+}
 li {
   font-family: "Oxygen", sans-serif;
   font-weight: bold;
+}
+nav {
+  background-color: white;
 }
 
 #navbar-ul {
@@ -25,7 +32,9 @@ a {
   justify-content: center;
   align-items: center;
 }
-
+.home-container h1 {
+  font-weight: bold;
+}
 p.home-description {
   width: 500px;
   font-family: "Roboto Mono", monospace;
@@ -69,6 +78,43 @@ p.home-description {
 .tech-stack img {
   width: 60px;
   object-fit: contain;
+}
+
+@media only screen and (max-width: 990px) {
+  #home {
+    padding-top: 150px;
+    margin-bottom: 300px;
+  }
+  .home-container {
+    flex-direction: column-reverse;
+  }
+  .home-container p {
+    width: 100vw;
+    text-align: center;
+  }
+  .home-container h1 {
+    padding: 20px 0;
+    font-size: 3.3rem;
+    text-align: center;
+  }
+  .icons-container {
+    text-align: center;
+  }
+  .tech-stack-container {
+    flex-direction: column;
+    padding-top: 40px;
+    gap: 20px;
+  }
+  .tech-stack {
+    gap: 1;
+  }
+  .photo-container {
+    width: 80vw;
+  }
+  p.home-description {
+    width: 100%;
+    font-family: "Roboto Mono", monospace;
+  }
 }
 
 #about {
