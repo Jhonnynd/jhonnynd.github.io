@@ -1,0 +1,102 @@
+li {
+  font-family: "Oxygen", sans-serif;
+  font-weight: bold;
+}
+
+#navbar-ul {
+  margin-left: auto;
+  margin-right: 0 !important;
+}
+a {
+  text-decoration: none;
+}
+
+#home {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.home-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+p.home-description {
+  width: 500px;
+  font-family: "Roboto Mono", monospace;
+}
+
+.photo-container {
+  width: 400px;
+}
+
+.photo-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.icons-container {
+  font-size: 2.4em;
+}
+.fa-linkedin {
+  color: blue;
+}
+.fa-github {
+  color: black;
+}
+
+.tech-stack-container {
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  gap: 50px;
+}
+
+.tech-stack-container p {
+  margin: 0;
+}
+.tech-stack {
+  display: flex;
+  gap: 20px;
+}
+
+.tech-stack img {
+  width: 60px;
+  object-fit: contain;
+}
+
+#about {
+  width: 100%;
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10%;
+}
+
+.about-me-text {
+  width: 40em;
+}
+.about-me-text h3 {
+  font-family: "Oxygen";
+}
+
+.about-me-text p {
+  text-align: justify;
+}
+
+.about-me-img {
+  width: 200px;
+}
+
+.about-me-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
