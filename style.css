@@ -152,11 +152,11 @@ p.home-description {
 /* Projects */
 #projects {
   padding: 0 10%;
-  padding-top: 100px;
-  margin: 200px auto;
+  padding: 50px 0;
 }
 .projects-container {
   display: flex;
+  padding: 0 30px;
   flex-direction: column;
   gap: 100px;
 }
@@ -214,8 +214,8 @@ p.home-description {
   }
 }
 #experience {
+  padding: 50px 0;
   background-color: white;
-  padding: 200px 0;
   height: 800px;
 }
 ul.timeline {
@@ -251,24 +251,47 @@ ul.timeline > li:before {
 
 #contact {
   padding: 100px 0;
-  height: 500px;
+  height: 440px;
 }
 #contact h2 {
   text-align: center;
 }
 .contact-methods {
+  padding: 50px 0;
   display: flex;
-  flex-direction: column;
+  gap: 50px;
   justify-content: center;
   align-items: center;
 }
 .fa-envelope {
-  font-size: 2.4em;
+  font-size: 4em;
 }
 .contact-methods span {
   display: flex;
-  padding-top: 20px;
-  flex-direction: column;
+  gap: 20px;
   justify-content: center;
   align-items: center;
+}
+.contact-methods a {
+  margin: 0;
+  text-decoration: none;
+  color: black;
+}
+.contact-methods .icons-container {
+  display: flex;
+  gap: 20px;
+  font-size: 4em;
+}
+
+@media only screen and (max-width: 990px) {
+  .contact-methods {
+    flex-direction: column;
+  }
+  #contact {
+    padding: 200px 0;
+  }
+  #experience {
+    padding: 50px 0;
+    height: 100%;
+  }
 }
