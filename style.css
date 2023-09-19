@@ -121,11 +121,11 @@ p.home-description {
   background-color: white;
   padding: 200px 30px;
   width: 100%;
-  height: 800px;
+  height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 10%;
+  gap: 50px;
 }
 
 .about-me-text {
@@ -161,7 +161,7 @@ p.home-description {
     width: 100%;
   }
   .about-me-img {
-    width: 350px;
+    width: 80vw;
   }
 }
 
@@ -223,6 +223,10 @@ p.home-description {
   width: 80%;
 }
 
+.project-img.static {
+  height: auto;
+}
+
 @media only screen and (max-width: 990px) {
   .project {
     flex-direction: column-reverse;
@@ -233,6 +237,15 @@ p.home-description {
   }
   .project-attachment {
     width: 100%;
+  }
+  .project-img {
+    height: 300px;
+    width: 100%;
+  }
+  .project-img img {
+    object-position: top;
+    transition: none;
+    height: auto;
   }
   .technologies {
     width: 100%;
