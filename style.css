@@ -137,6 +137,7 @@ p.home-description {
 
 .about-me-text p {
   text-align: justify;
+  line-height: 2;
 }
 
 .about-me-img {
