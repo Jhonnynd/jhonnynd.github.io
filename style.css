@@ -250,6 +250,9 @@ p.home-description {
   .technologies {
     width: 100%;
   }
+  .buttons {
+    display: block;
+  }
 }
 #experience {
   padding: 50px 0;
