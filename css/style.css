@@ -42,6 +42,7 @@ p.home-description {
 
 .photo-container {
   width: 400px;
+  padding: 20px;
 }
 
 .photo-container img {
@@ -82,7 +83,7 @@ p.home-description {
 
 @media only screen and (max-width: 990px) {
   #home {
-    padding-top: 150px;
+    padding-top: 80px;
     margin-bottom: 300px;
   }
   .home-container {
@@ -109,7 +110,9 @@ p.home-description {
     gap: 1;
   }
   .photo-container {
-    width: 80vw;
+    width: 65vw;
+    padding: 0;
+    max-width: 400px;
   }
   p.home-description {
     width: 100%;
